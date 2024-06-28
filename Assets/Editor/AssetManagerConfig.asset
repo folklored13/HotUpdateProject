@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef5737ec35b312d4080619d2e2287262, type: 3}
+  m_Name: AssetManagerConfig
+  m_EditorClassIdentifier: 
+  BuildingPattern: 1
+  _IncrementalBuildMode: 2
+  CompressionPattern: 1
+  AssetManagerVersion: 100
+  CurrentBuildVersion: 100
+  packageEditorInfos:
+  - PackageName: A
+    AssetList:
+    - {fileID: 6888692523717199140, guid: 2dfb32014330b02409653510b1117598, type: 3}
+  - PackageName: B
+    AssetList:
+    - {fileID: 5661009918641322817, guid: bca3d3dc7e952074b83ea2ae1c5ed8c4, type: 3}
+    - {fileID: 4289147072633330652, guid: 081053edf6c7f2c42aa3c64d9f15b862, type: 3}
+  InvalidExtensionNames:
+  - .meta
+  - .cs
